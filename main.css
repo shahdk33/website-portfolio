@@ -61,8 +61,15 @@ main {
 
 .navigation ul li a {
   text-decoration: none;
-}
+  transition: all 0.3s ease; /* Add transition property with desired duration and timing function for both states */
 
+}
+.navigation ul li a:hover {
+  font-weight: bold;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease; /* Add transition property with desired duration (0.3s) and ease timing function */
+
+}
 #button {
   display: flex;
   justify-content: center;
