@@ -85,4 +85,10 @@ button {
   color: white;
   background-color: rgb(124, 0, 206);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(65, 1, 108);
+  transition: all 0.3s ease;
 }
