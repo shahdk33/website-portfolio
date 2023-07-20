@@ -15,25 +15,25 @@ main {
 
 #greeting {
   font-size: 60px;
-  font-family: 'Poppins', sans-serif;
-  padding:0px;
+  font-family: 'Reem Kufi', sans-serif;  padding:0px;
   margin:0;
 }
 
 
 .regular {
   color: black; /* Set the color for "Hi, I'm" to black */
-  font-weight: light;
+  font-weight: lighter;
 }
 
 .bold-purple {
-  font-weight: bold; /* Set the font weight for "Shahd Khartabil" to bold */
+  font-weight: bold;
+ /* Set the font weight for "Shahd Khartabil" to bold */
   color: rgb(124, 0, 206); /* Set the color for "Shahd Khartabil" to purple */
 }
 
 #title {
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;  
   padding: 0px;
   margin:0;
   font-style: italic;
@@ -45,8 +45,7 @@ main {
 .navigation {
   margin-top: 75px;
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: 'Reem Kufi', sans-serif;}
 
 .navigation ul {
   list-style-type: none;
