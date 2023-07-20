@@ -28,7 +28,7 @@ main {
 .bold-purple {
   font-weight: bold;
  /* Set the font weight for "Shahd Khartabil" to bold */
-  color: rgb(124, 0, 206); /* Set the color for "Shahd Khartabil" to purple */
+  color: #8155FF; /* Set the color for "Shahd Khartabil" to purple */
 }
 
 #title {
@@ -82,12 +82,12 @@ button {
   font-size: 18px;
   font-weight: bold;
   color: white;
-  background-color: rgb(124, 0, 206);
+  background-color: #8155FF;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: rgb(65, 1, 108);
+  background-color: #5c3cb5;
   transition: all 0.3s ease;
 }
