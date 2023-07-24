@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -14,7 +18,22 @@ main {
   height: 100vh;
 }
 
+#callout{
+  width: 80%; height: 20%; background: white; border-radius: 50px; border: 0.50px #4F30A8 solid
+}
 
+#logos{
+  display: flex;
+}
+#aboutMe{
+  text-align: center; color: #353333; font-size: 20px; font-family: Reem Kufi; font-weight: 400; 
+  word-wrap: break-word;
+  padding-right: 160px;
+  padding-left: 160px;
+  margin-top:20px;
+  margin-bottom:20px;
+  
+}
 *{
   margin:0;
   padding: 0;
