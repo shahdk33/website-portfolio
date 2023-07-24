@@ -2,13 +2,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .heading{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
 }
+
 
 *{
   margin:0;
@@ -21,6 +26,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
 }
@@ -30,7 +36,6 @@ main {
   font-family: 'Reem Kufi', sans-serif; 
  
 }
-
 
 .regular {
   color: black; /* Set the color for "Hi, I'm" to black */
@@ -51,7 +56,9 @@ main {
 
 .navigation {
   font-size: 20px;
-  font-family: 'Reem Kufi', sans-serif;}
+  font-family: 'Reem Kufi', sans-serif;
+
+}
 
 .navigation ul {
   list-style-type: none;
