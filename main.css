@@ -2,10 +2,20 @@ html{
   scroll-behavior: smooth;;
 }
 
+/* body{
+  background: linear-gradient(to bottom, #ffffff 0%, #6926bc 100%);
+
+} */
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+
+}
+
+#contactLogos a {
+  margin: 10px; /* Adjust this value to set the spacing between the logos */
 }
 
 .heading{
@@ -31,7 +41,7 @@ main {
 }
 
 #logos img {
-  margin: 10px;
+  margin: 5px;
 }
 
 #aboutMe{
@@ -90,7 +100,6 @@ main {
   left:0;
   right: 0;
 
-  background-color: #ffffff;
 
 }
 
@@ -116,6 +125,7 @@ main {
   transition: all 0.3s ease; 
 
 }
+
 
 #button {
   display: flex;
