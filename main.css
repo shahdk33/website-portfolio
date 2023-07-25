@@ -121,6 +121,7 @@ main {
   top:0;
   left:0;
   right: 0;
+  background-color: white;
 
 
 }
@@ -139,7 +140,7 @@ main {
 .navigation ul li a {
   text-decoration: none;
   transition: all 0.3s ease; 
-  color: black;
+  color:#8155FF;
 
 }
 .navigation ul li a:hover {
@@ -169,6 +170,33 @@ button {
 }
 
 button:hover {
-  background-color: #5c3cb5;
+  background-color: #4e3299;
   transition: all 0.3s ease;
+}
+
+#projects1{
+  display: flex;
+  width: 60%;
+  height: 70vh;
+  padding: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+#projects1 > img{
+  margin: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#aboutMe > a{
+  color: #8155FF;
+  font-weight: bold;
+}
+
+#aboutMe > a:hover{
+  color:#4e3299
 }
