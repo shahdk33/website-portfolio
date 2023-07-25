@@ -18,13 +18,22 @@ main {
   height: 100vh;
 }
 
-#callout{
-  width: 80%; height: 20%; background: white; border-radius: 50px; border: 0.50px #4F30A8 solid
+#logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 20%;
+  border-radius: 50px;
+  border: 0.50px #4F30A8 solid;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-#logos{
-  display: flex;
+#logos img {
+  margin: 10px;
 }
+
 #aboutMe{
   text-align: center; color: #353333; font-size: 20px; font-family: Reem Kufi; font-weight: 400; 
   word-wrap: break-word;
@@ -107,6 +116,7 @@ main {
   transition: all 0.3s ease; 
 
 }
+
 #button {
   display: flex;
   justify-content: center;
