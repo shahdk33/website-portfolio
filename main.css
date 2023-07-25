@@ -3,15 +3,31 @@ html{
 }
 
 
-main {
+/* main {
   display: flex;
   justify-content: center;
   align-items: center;
 
+} */
+
+
+#contactLogos > a{
+  margin: 20px;
 }
 
-#contactLogos a {
-  margin: 10px; /* Adjust this value to set the spacing between the logos */
+#contactLogos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; Adjust this value to set the spacing between the logos */
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 16px;
 }
 
 .heading{
@@ -96,6 +112,7 @@ main {
   flex-direction: column;
   width: 100%;
 }
+
 
 #greeting {
   font-size: 60px;
@@ -205,4 +222,26 @@ a{
 
 #aboutMe > a:hover{
   color:#4e3299
+}
+
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #8155FF; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: none;
+}
+
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  /* height: 20%; */
 }
