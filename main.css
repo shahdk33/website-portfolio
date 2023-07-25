@@ -58,6 +58,7 @@ main {
 
 }
 
+
 #skillsLogos > h3{
   margin-top: 25px;
   margin-bottom: 10px;
@@ -68,7 +69,12 @@ main {
   font-family: 'Reem Kufi', sans-serif; 
   box-sizing: border-box;
 }
-
+#middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 /* .about{
   background: linear-gradient(to bottom, #be96f0  0%, rgb(143, 228, 239) 100%);
 
