@@ -276,3 +276,18 @@ input[type=text], input[type=email], select, textarea {
   margin: 6px;
   padding:10px;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+}
+
+.links p {
+  margin: 0;
+  padding: 0 5px;
+  color: rgba(0, 0, 0, 0.372);
+}
