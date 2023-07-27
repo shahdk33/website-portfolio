@@ -199,7 +199,7 @@ button:hover {
 
 #projects1{
   display: flex;
-  width: 60%;
+  width: 80%;
   height: 70vh;
   padding: 20px;
   align-content: center;
@@ -248,25 +248,28 @@ input[type=text], input[type=email], select, textarea {
 
 
 /* Styling for the hidden content */
-.hidden-content {
-  display: none;
+#projectscontainer{
   background-color:azure;
   border: solid 7px;
   border-color: rgb(169, 210, 210);
   padding: 10px;
   border-radius: 20px;
-  position: absolute;
-  width: 400%;
-  height: 40vh;
+  /* position: absolute; */
+  width: 100%;
+  height:80%;
   align-items: center;
+  justify-content: center;
 }
 
+#projects1{
+  display: flex;
+}
 /* Styling for the image container */
 .image-container {
   position: relative;
   padding: 20px;
 }
-
+ 
 #techStack{
   display: flex;
 }
@@ -274,10 +277,12 @@ input[type=text], input[type=email], select, textarea {
 #techStack > p {
   color: white;
   background-color: #8155FF;
-  border-radius: 50px;
-  margin: 6px;
-  padding:10px;
-}
+  border-radius: 30px;
+  padding: 6px;
+  font-size: small;
+  margin: 5px;
+  
+} 
 
 .header {
   display: flex;
@@ -292,4 +297,8 @@ input[type=text], input[type=email], select, textarea {
   margin: 0;
   padding: 0 5px;
   color: rgba(0, 0, 0, 0.372);
+}
+
+#subtitle{
+  color: #3533338d;
 }
