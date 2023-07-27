@@ -72,24 +72,88 @@
             </div>
 
             <div id="projects" class="projects">
-                <h1>my work</h1>
+                <h1>my projects</h1>
                 <p> Press on each icon to display details of the projects I developed on my own time! </p>
 
                 <span id="projects1">
 
 
                 <!-- <h3>ordr</h3> -->
-                <img src="images/piece-of-cake.png" style="width:60px; height: 60px;">
+                <div class="image-container" onclick="toggleContent(this)">
+                    <img src="images/piece-of-cake.png" style="width:60px; height: 60px;">
+                    <div class="hidden-content">
+                      <!-- Content that will appear when the image is clicked -->
+                      <h3>CakeLounge</h3>
+                      <p><b>Mobile Application</b></p>   
+                      <p>BreadLounge, a local cafe, uses this application to take cake orders of customers. The employees are able to view the cake orders on a calendar view, and see upcoming orders to stay up to date. Helped make the process more efficient.</p>     
+                      
+                      <span id="techStack">
+                        <p>React Native</p>
+                        <p>Firebase</p>
+                        <p>Figma</p>
+                        <p>Jira</p>
+                      </span>
+
+
+                    </div>
+                  </div>
                 <!-- <a href="https://www.flaticon.com/free-icons/cake" title="cake icons" style="font-size: 5px; text-decoration: none; color: gray;">Cake icons created by Freepik - Flaticon</a> -->
 
                 <!-- <h3>myFridge</h3> -->
-                <img src="images/fridge.png" style="width: 60px; height: 60px;">
+                <div class="image-container" onclick="toggleContent(this)">
+                    <img src="images/fridge.png" style="width: 60px; height: 60px;">
+                    <div class="hidden-content">
+                        <h3>frij</h3>
+                        <p><b>Web Application</b></p>   
+                        <p>Have random ingredients in your fridge and don't know what to make out of them? frij will take your ingredients and find recipes for you to enjoy with what you have on hand.</p>     
+                        
+                        <span id="techStack">
+                          <p>Python</p>
+                          <p>Django</p>
+                          <p>Jira</p>
+                        </span>
+                    </div>
+                  </div>
 
                 <!-- <h3>Everything Converter</h3> -->
-                <img src="images/calculator.png" style="width: 60px; height: 60px;">
+                <div class="image-container" onclick="toggleContent(this)">
+                    <img src="images/calculator.png" style="width: 60px; height: 60px;">
+                    <div class="hidden-content">
+                      <!-- Content that will appear when the image is clicked -->
+                      <h3>Everything Converter</h3>
+                      <p><b>Web Application</b></p>   
+                      <p>Convert metrics to other metrics.</p>     
+                      
+                      <span id="techStack">
+                        <p>React</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                      </span>                    
+                    </div>
+                  </div>
 
                 <!-- <h3>Portfolio Website</h3> -->
-                <img src="images/laptop.png" style="width: 60px; height: 60px;">
+                <div class="image-container" onclick="toggleContent(this)">
+                    <img src="images/laptop.png" style="width: 60px; height: 60px;">
+                    <div class="hidden-content">
+                      <!-- Content that will appear when the image is clicked -->
+                      <h3>Shahd's portfolio</h3>
+                      <p><b>Website</b></p>   
+                      <p>My own portfolio to showcase my creativity, problem solving, and application of technical skills. </p>     
+                      
+                      <span id="techStack">
+                        <p>React</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                      </span>                    </div>
+                  </div>
+
+                </span>
+
+                <h1>academic projects</h1>
+                <span id="projects2">
 
                 </span>
 
@@ -112,8 +176,8 @@
                       <label for="email">email</label>
                       <input type="email" id="email" name="email" placeholder="your email">
                   
-                      <label for="subject">subject</label>
-                      <textarea id="subject" name="subject" placeholder="subject" style="height:100px"></textarea>
+                      <label for="subject">message</label>
+                      <textarea id="subject" name="subject" placeholder="write your message here" style="height:100px"></textarea>
                   
                       <button type="submit" value="Submit">submit</button>
                   
@@ -137,5 +201,7 @@
          <p class="copyright">Shahd Khartabil © 2023</p>
 
     </footer>
+    <script src="index.js"></script>
+
 </body>
 </html>

@@ -163,7 +163,7 @@ footer{
 .navigation ul li a {
   text-decoration: none;
   transition: all 0.3s ease; 
-  color:#8155FF;
+  color:#000000;
 
 }
 .navigation ul li a:hover {
@@ -244,4 +244,35 @@ input[type=text], input[type=email], select, textarea {
   margin: 20px;
   width: 30%;
   /* height: 20%; */
+}
+
+
+/* Styling for the hidden content */
+.hidden-content {
+  display: none;
+  background-color:aliceblue;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  width: 400%;
+  height: 40vh;
+  align-items: center;
+}
+
+/* Styling for the image container */
+.image-container {
+  position: relative;
+  padding: 20px;
+}
+
+#techStack{
+  display: flex;
+}
+
+#techStack > p {
+  color: white;
+  background-color: #8155FF;
+  border-radius: 50px;
+  margin: 6px;
+  padding:10px;
 }
