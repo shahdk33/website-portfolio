@@ -250,7 +250,9 @@ input[type=text], input[type=email], select, textarea {
 /* Styling for the hidden content */
 .hidden-content {
   display: none;
-  background-color:aliceblue;
+  background-color:azure;
+  border: solid 7px;
+  border-color: rgb(169, 210, 210);
   padding: 10px;
   border-radius: 20px;
   position: absolute;
