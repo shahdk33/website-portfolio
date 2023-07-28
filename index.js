@@ -15,3 +15,12 @@ function toggleContent(container) {
     currentContent = null;
   }
 }
+
+
+
+    function openResume() {
+        window.open('resume.pdf', '_blank');
+    }
+
+    // Add an event listener to the "my resume" button
+    document.getElementById('resumeBtn').addEventListener('click', openResume);
