@@ -59,9 +59,11 @@ footer{
 }
 
 #skillsLogos{
-  padding:30px;
   margin-top:20px;
-  margin-bottom:20px;
+  padding-right:20px;
+  padding-left: 20px;
+  padding-bottom:10px; 
+
   background-color: azure;
   border-radius: 50px;
   color: black;
