@@ -107,7 +107,7 @@ footer{
 
 } */
 .about, .projects, .contact{
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,16 +199,17 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-#projects1{
+#projects1, #projects2{
   display: flex;
   padding: 20px;
   align-content: center;
   justify-content: center;
+  width: 80%;
 }
 
-#projects1 > img{
-  margin: 30px;
-}
+
+
+
 
 a{
   text-decoration: none;
@@ -252,7 +253,7 @@ input[type=text], input[type=email], select, textarea {
   background-color:azure;
   border: solid 7px;
   border-color: rgb(169, 210, 210);
-  width: 60%;
+  width: 50%;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
