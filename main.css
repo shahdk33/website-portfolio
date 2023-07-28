@@ -253,6 +253,7 @@ input[type=text], input[type=email], select, textarea {
   border: solid 7px;
   border-color: rgb(169, 210, 210);
   padding: 10px;
+  margin: 10px;
   border-radius: 20px;
   /* position: absolute; */
   width: 100%;
