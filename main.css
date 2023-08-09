@@ -1,5 +1,5 @@
 html{
-  scroll-behavior: smooth;;
+  scroll-behavior: smooth;
 }
 
 
@@ -105,7 +105,6 @@ footer{
 
 } */
 .about, .projects, .contact{
-  padding-top: 10%;
   padding-bottom: 10%;
   display: flex;
   justify-content: center;
@@ -114,6 +113,13 @@ footer{
   width: 100%;
 }
 
+.projects, .contact{
+  padding-top: 2%;
+}
+
+.about{
+  padding-top: 8%;
+}
 
 #greeting {
   font-size: 60px;
@@ -245,7 +251,7 @@ input[type=text], input[type=email], select, textarea {
   background-color:azure;
   border: solid 7px;
   border-color: rgb(169, 210, 210);
-  width: 50%;
+  width: 40%;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
