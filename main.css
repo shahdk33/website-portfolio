@@ -198,7 +198,14 @@ button:hover {
   transition: all 0.3s ease;
 }
 
-#projects1, #projects2{
+.carousel-inner{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+#projects2{
   display: flex;
   padding: 20px;
   align-content: center;
@@ -255,9 +262,6 @@ input[type=text], input[type=email], select, textarea {
   justify-content: center;
 }
 
-#projects1{
-  display: flex;
-}
 /* Styling for the image container */
 .image-container {
   position: relative;

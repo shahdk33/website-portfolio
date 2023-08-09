@@ -6,6 +6,13 @@
     <title>Shahd Khartabil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Reem+Kufi:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 </head>
@@ -88,16 +95,16 @@
 
                 </span>
             </div>
-
+  
             <div id="projects" class="projects">
-                <h1>personal projects</h1>
-                <p> these are the fun projects I developed on my own time! </p>
-                <div id="projects1">
-                  <!-- <img src="images/piece-of-cake.png" style="width: 60px; height: 60px;"> -->
-
-                  <div id="projectscontainer">
-
-                    <div class="header">
+              <h1>personal projects</h1>
+              <p> these are the fun projects I developed on my own time! </p>
+<div id="projects1" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <!-- Add all your project blocks here -->
+    <!-- Each project block should be a carousel item -->
+    <div id="projectscontainer" class="carousel-item active">
+      <div class="header">
                       <h3>CakeLounge</h3>
                       <div class="links">
                         <a href="">repo</a>
@@ -119,16 +126,9 @@
                       <p>Figma</p>
                       <p>Jira software</p>
                     </span>
-
-
-                  </div> 
-                  
-                  
-                  <!-- <img src="images/calculator.png" style="width: 60px; height: 60px;"> -->
-
-                  <div id="projectscontainer">
-
-                    <div class="header">
+    </div>
+    <div id="projectscontainer" class="carousel-item">
+      <div class="header">
 
                       <h3>Everything Converter</h3>
                       <div class="links">
@@ -141,7 +141,7 @@
                     </div>
                     
                     <p id="subtitle"><b>Web Application</b></p>   
-                    <img src="images/Screenshot 2023-07-27 222307.png" style="width: 100%; height: inherit;">
+                    <img src="images/Screenshot 2023-07-27 222307.png" style="width: inherit; height: inherit;">
 
                     <p>Website that converts everyday metrics, including time, weight, and currency. I developed this project to simplify my daily conversion searches, making it much easier and faster.</p>
 
@@ -153,19 +153,10 @@
                       <p>React</p>
                       
                     </span>
+    </div>
 
-
-
-                  </div> 
-
-                </div>
-
-                <div id="projects1">
-                  <!-- <img src="images/fridge.png" style="width: 60px; height: 60px;"> -->
-
-                  <div id="projectscontainer">
-
-                    <div class="header">
+    <div id="projectscontainer" class="carousel-item">
+      <div class="header">
                       <h3>frij</h3>
                       <div class="links">
                         <a href="">repo</a>
@@ -182,39 +173,56 @@
                       <p>Python</p>
                       <p>Django</p>
                     </span>
+    </div>
+
+    <div id="projectscontainer" class="carousel-item">
+      <div class="header">
+        <h3>My Portfolio</h3>
+        <div class="links">
+          <a href="">repo</a>
+          <p>|</p>
+          <a href="">figma</a>
+          <p>|</p>
+          <a href="">live</a>
+        </div>
+      </div>
+      
+      <p id="subtitle"><b>Website</b></p>   
+      <img src="images/Screenshot 2023-07-27 222806.png" style="width: inherit; height: inherit;">
+      <p>Website to showcase my skills, projects, and to know more about me. </p>                    
+      <span id="techStack">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>React</p>
+        <p>Figma</p>
+        <p>Jira software</p>
+      </span>
+
+    </div>
+    <!-- ... Add more carousel items for other projects ... -->
+  </div>
+
+  <!-- Add carousel navigation controls -->
+  <a class="carousel-control-prev" href="#projects1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#projects1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
-                  </div> 
-                  
-                  <!-- <img src="images/laptop.png" style="width: 60px; height: 60px;"> -->
-
-                  <div id="projectscontainer">
-
-                    <div class="header">
-                      <h3>My Portfolio</h3>
-                      <div class="links">
-                        <a href="">repo</a>
-                        <p>|</p>
-                        <a href="">figma</a>
-                        <p>|</p>
-                        <a href="">live</a>
-                      </div>
-                    </div>
-                    
-                    <p id="subtitle"><b>Website</b></p>   
-                    <img src="images/Screenshot 2023-07-27 222806.png" style="width: 100%; height: inherit;">
-                    <p>Website to showcase my skills, projects, and to know more about me. </p>                    
-                    <div id="techStack">
-                      <p>HTML</p>
-                      <p>CSS</p>
-                      <p>JavaScript</p>
-                      <p>React</p>
-                      <p>Figma</p>
-                      <p>Jira software</p>
-                    </div>
 
 
-                  </div> 
+
+</div>
+
+           
+                <div id="projects1">
+                  <!-- <img src="images/piece-of-cake.png" style="width: 60px; height: 60px;"> -->
 
                 </div>
 
