@@ -206,7 +206,8 @@ button:hover {
 
 #projects1, #projects2{
   display: flex;
-  padding: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   align-content: center;
   justify-content: center;
   width: 80%;
@@ -330,3 +331,77 @@ input[type=text], input[type=email], select, textarea {
   background-color:#8155FF;
   transition: all 0.3s ease; 
 }
+
+
+/* Add a media query for smaller screens */
+@media (max-width: 768px) {
+  .navigation ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation ul li {
+    margin: 10px 0;
+  }
+
+  .navigation {
+    position: static;
+    background-color: transparent;
+  }
+
+  #middle {
+    text-align: center;
+  }
+
+  .heading {
+    height: auto;
+  }
+
+  #skillsLogos, #projectscontainer {
+    width: 100%;
+  }
+
+  #skillsLogos > h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #projects1, #projects2 {
+    flex-direction: column;
+  }
+
+  #techStack {
+    flex-wrap: wrap;
+  }
+
+  #techStack > p {
+    margin: 3px;
+  }
+
+  #mycontacts {
+    margin-top: 15px;
+  }
+
+  #mycontacts > p {
+    margin: 5px;
+  }
+
+  .footer {
+    margin-top: 20px;
+  }
+
+  #contactLogos > a {
+    margin: 10px;
+  }
+
+  footer {
+    margin: 10px;
+  }
+
+  #aboutMe{
+    width: 80%;
+    padding: 0px;
+  }
+}
+
+
