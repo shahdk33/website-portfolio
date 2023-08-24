@@ -1,8 +1,31 @@
+body{
+  background-color: rgb(243, 240, 249);
+}
 html{
   scroll-behavior: smooth;
 }
+#demo{
+  background-color: #9d7df6;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: small;
+}
 
-
+#figma{
+  background-color: rgb(122, 122, 122);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: small;
+}
+#github{
+  background-color: #363636;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: small;
+}
 #contactLogos > a{
   margin: 20px;
 }
@@ -10,7 +33,9 @@ html{
 #contactLogos{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;    
+  background-color: (243, 240, 249);  
+
   /* margin: 0 auto; Adjust this value to set the spacing between the logos */
 }
 
@@ -60,12 +85,11 @@ footer{
   padding-right:20px;
   padding-left: 20px;
   padding-bottom:20px; 
-
-  background-color: azure;
   border-radius: 50px;
   color: black;
-  border: solid 7px;
-  border-color: rgb(169, 210, 210);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px grey;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +175,7 @@ footer{
   top:0;
   left:0;
   right: 0;
-  background-color: white;
+  background-color: rgb(243, 240, 249);
 
 
 }
@@ -249,15 +273,12 @@ input[type=text], input[type=email], select, textarea {
 
 /* Styling for the hidden content */
 #projectscontainer{
-  background-color:azure;
-  border: solid 7px;
-  border-color: rgb(169, 210, 210);
+  background-color:white;
   width: 40%;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
-  /* position: absolute; */
-
+  box-shadow: 1px 1px 5px grey;
   align-items: center;
   justify-content: center;
 }
