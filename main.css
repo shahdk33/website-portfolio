@@ -89,7 +89,7 @@ footer{
   color: black;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 1px 1px 5px grey;
+  box-shadow: 1px 1px 10px rgb(58, 0, 99);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -336,8 +336,10 @@ input[type=text], input[type=email], select, textarea {
 #mycontacts > p {
   border-radius: 50px;
   color: black;
-  border: solid 1px;
-  border-color:#8155FF;
+  background-color: white;
+  /* border: solid 1px; */
+  /* border-color:#8155FF; */
+  box-shadow: 2px 2px 5px #8155FF;
   padding: 6px 12px;
   margin: 10px;
 }
