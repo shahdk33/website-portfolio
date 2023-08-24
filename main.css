@@ -438,6 +438,10 @@ input[type=text], input[type=email], select, textarea {
     width: 80%;
     padding: 0px;
   }
+
+  #skillsLogos{
+    width: 70%;
+  }
 }
 
 
