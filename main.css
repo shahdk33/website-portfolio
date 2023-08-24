@@ -17,6 +17,11 @@ html{
   transition: all 0.3s ease; 
 }
 
+#figma:hover{
+  background-color: #424242;
+  transition: all 0.3s ease; 
+
+}
 #github:hover{
   background-color: #181818;
   transition: all 0.3s ease; 
