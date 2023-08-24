@@ -12,6 +12,17 @@ html{
   font-size: small;
 }
 
+#demo:hover{
+  background-color: #8469cf;
+  transition: all 0.3s ease; 
+}
+
+#github:hover{
+  background-color: #181818;
+  transition: all 0.3s ease; 
+
+}
+
 #figma{
   background-color: rgb(122, 122, 122);
   color: white;
