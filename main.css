@@ -97,6 +97,17 @@ footer{
 
 }
 
+#logos1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+#logos1>img{
+  margin: 5px;
+}
+
 
 #skillsLogos > h3{
   margin-top: 25px;
@@ -283,6 +294,10 @@ input[type=text], input[type=email], select, textarea {
   justify-content: center;
 }
 
+.bottomProjects{
+  margin-bottom: 38px;
+}
+
 #projects1{
   display: flex;
 }
@@ -337,9 +352,10 @@ input[type=text], input[type=email], select, textarea {
   border-radius: 50px;
   color: black;
   background-color: white;
-  /* border: solid 1px; */
-  /* border-color:#8155FF; */
+  border: solid 1px;
+  border-color:#8155FF;
   box-shadow: 2px 2px 5px #8155FF;
+
   padding: 6px 12px;
   margin: 10px;
 }
