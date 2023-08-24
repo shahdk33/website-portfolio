@@ -17,6 +17,10 @@ html{
   transition: all 0.3s ease; 
 }
 
+#course{
+  color: rgb(101, 101, 101);
+}
+
 #figma:hover{
   background-color: #424242;
   transition: all 0.3s ease; 
