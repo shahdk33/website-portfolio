@@ -200,7 +200,7 @@ footer{
   width: 100%;
 }
 .contact{
-  height: 40vh;
+  height: 70vh;
 }
 .projects, .contact{
   padding-top: 2%;
@@ -569,6 +569,10 @@ input[type=text], input[type=email], select, textarea {
 
   #skillsLogos{
     width: 70%;
+  }
+
+  #greeting{
+    flex-direction: column;
   }
 }
 
