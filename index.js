@@ -32,4 +32,14 @@ function myFunction() {
   var skills = document.getElementById("skillsLogos");
   skills.classList.toggle("dark-mode");
 
+  var dark = document.getElementById("toggleDark");
+  dark.classList.toggle("dark-mode");
+  
+  var toggleButton = document.getElementById('toggleDark');
+  if (element.classList.contains("dark-mode")) {
+    toggleButton.textContent = "☀️ light mode";
+  } else {
+    toggleButton.textContent = "🌙 dark mode";
+  }
+
 }

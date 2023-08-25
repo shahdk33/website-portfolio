@@ -440,6 +440,10 @@ input[type=text], input[type=email], select, textarea {
   color: #ffffff; /* Set your dark mode text color for paragraphs */
 }
 
+.dark-mode #toggleDark{
+  color: white;
+}
+
 .dark-mode #projectscontainer {
   background-color: #313034;
   box-shadow: none;
@@ -458,6 +462,7 @@ input[type=text], input[type=email], select, textarea {
     border: none;
     cursor: pointer;
     z-index: 1000;
+    color: black;
 }
 
 
