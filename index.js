@@ -24,6 +24,9 @@ function myFunction() {
   var about = document.getElementById("aboutMe");
   about.classList.toggle("dark-mode");
 
+  var contacts = document.getElementById("mycontacts");
+  contacts.classList.toggle("dark-mode");
+
   var projects = document.getElementsByClassName("projectscontainer");
   for (var i = 0; i < projects.length; i++) {
     projects[i].classList.toggle("dark-mode");

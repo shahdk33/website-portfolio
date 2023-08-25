@@ -60,7 +60,7 @@ html{
 
 }
 #github:hover{
-  background-color: #181818;
+  background-color: #141414;
   transition: all 0.3s ease; 
 
 }
@@ -73,7 +73,7 @@ html{
   font-size: small;
 }
 #github{
-  background-color: #363636;
+  background-color: #191919;
   color: white;
   border-radius: 10px;
   padding: 5px;
@@ -147,7 +147,6 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 #logos1{
@@ -200,7 +199,9 @@ footer{
   flex-direction: column;
   width: 100%;
 }
-
+.contact{
+  height: 40vh;
+}
 .projects, .contact{
   padding-top: 2%;
 }
@@ -444,6 +445,16 @@ input[type=text], input[type=email], select, textarea {
   color: white;
 }
 
+.dark-mode #mycontacts>p {
+  background-color:#313034;
+  color: white;
+}
+
+.dark-mode #mycontacts :hover{
+  background-color:#18181a;
+  color: white;
+}
+
 .dark-mode #projectscontainer {
   background-color: #313034;
   box-shadow: none;
@@ -525,6 +536,11 @@ input[type=text], input[type=email], select, textarea {
   #techStack > p {
     margin: 3px;
   }
+
+  .links{
+    flex-wrap: wrap;
+  }
+
 
   #mycontacts {
     margin-top: 15px;
