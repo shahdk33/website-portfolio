@@ -262,8 +262,8 @@ footer{
   text-decoration: none;
   transition: all 0.3s ease; 
   color:#000000;
-
 }
+
 .navigation ul li a:hover {
   font-weight: bold;
   text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
@@ -426,6 +426,29 @@ input[type=text], input[type=email], select, textarea {
   background-color:#8155FF;
   transition: all 0.3s ease; 
 }
+
+.dark-mode{
+  background-color: #191919;
+  color: rgb(231, 236, 248);
+}
+
+.dark-mode .navigation a{
+  color:white;
+}
+
+.dark-mode #about p {
+  color: #ffffff; /* Set your dark mode text color for paragraphs */
+}
+
+#toggleDark{
+    position: fixed;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
 
 
 /* Add a media query for smaller screens */
