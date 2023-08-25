@@ -440,6 +440,17 @@ input[type=text], input[type=email], select, textarea {
   color: #ffffff; /* Set your dark mode text color for paragraphs */
 }
 
+.dark-mode #projectscontainer {
+  background-color: #313034;
+  box-shadow: none;
+}
+
+.dark-mode #skillsLogos {
+  color: white;
+  background-color: #313034;
+  box-shadow: none;
+}
+
 #toggleDark{
     position: fixed;
     right: 20px;

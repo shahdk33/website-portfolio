@@ -14,7 +14,7 @@ function openVideo(url){
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
-  
+
   var nav = document.getElementById('navigation');
   nav.classList.toggle("dark-mode");
 
@@ -23,5 +23,13 @@ function myFunction() {
 
   var about = document.getElementById("aboutMe");
   about.classList.toggle("dark-mode");
+
+  var projects = document.getElementsByClassName("projectscontainer");
+  for (var i = 0; i < projects.length; i++) {
+    projects[i].classList.toggle("dark-mode");
+  }
+
+  var skills = document.getElementById("skillsLogos");
+  skills.classList.toggle("dark-mode");
 
 }
