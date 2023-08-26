@@ -423,6 +423,7 @@ input[type=text], input[type=email], select, textarea {
   margin: 10px;
   background-color:#8155FF;
   transition: all 0.3s ease; 
+  cursor: pointer;
 }
 
 .dark-mode{
@@ -643,6 +644,10 @@ input[type=text], input[type=email], select, textarea {
   #mycontacts > p {
     margin: 5px;
   }
+
+  #mycontacts p:hover {
+    cursor: pointer;
+}
 
   .footer {
     margin-top: 20px;

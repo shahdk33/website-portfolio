@@ -6,6 +6,18 @@ function openCertificate1(){
   window.open('certificate1.pdf', '_blank');
 }
 
+function openCertificate2(){
+          var text = document.getElementById("certificate2");
+
+          var newText = "In progress. Expected completion date: August 30, 2023";
+
+          if (text.innerText.trim() === "") {
+              text.innerText = newText;
+          } else {
+              text.innerText = "";
+          }
+}
+
 function openVideo(url){
   window.open(url, '_blank');
 
