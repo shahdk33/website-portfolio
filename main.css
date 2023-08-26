@@ -632,8 +632,10 @@ input[type=text], input[type=email], select, textarea {
     margin: 3px;
   }
 
-  .links{
+  #links{
     flex-wrap: wrap;
+    margin: 3px;
+    max-height:min-content;
   }
 
 
