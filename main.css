@@ -445,6 +445,11 @@ input[type=text], input[type=email], select, textarea {
   color: white;
 }
 
+.dark-mode #menuContainer{
+  background-color: #191919;
+  color: white;
+}
+
 .dark-mode #mycontacts>p {
   background-color:#313034;
   color: white;

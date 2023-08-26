@@ -38,6 +38,9 @@ function myFunction() {
   var dark = document.getElementById("toggleDark");
   dark.classList.toggle("dark-mode");
   
+  var dark = document.getElementById("menuContainer");
+  dark.classList.toggle("dark-mode");
+
   var toggleButton = document.getElementById('toggleDark');
   if (element.classList.contains("dark-mode")) {
     toggleButton.textContent = "☀️ light mode";
@@ -52,6 +55,12 @@ function myFunction() {
 // Add this JavaScript to your index.js file
 
 function toggleMenu() {
+  var element = document.body;
+
+
   const menuContainer = document.getElementById('menuContainer');
   menuContainer.classList.toggle('menu-visible');
+
+  const button = document.getElementById('openMenu');
+
 }
