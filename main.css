@@ -5,9 +5,6 @@
   animation: dropDown 1.5s forwards ease-in-out; 
 }
 
-.bold-purple{  
-  animation: bounce 0.7s 5;
-}
 
 
 @keyframes bounce {
@@ -60,7 +57,7 @@ html{
 
 }
 #github:hover{
-  background-color: #141414;
+  background-color: #000000;
   transition: all 0.3s ease; 
 
 }
@@ -73,7 +70,7 @@ html{
   font-size: small;
 }
 #github{
-  background-color: #191919;
+  background-color: #242424;
   color: white;
   border-radius: 10px;
   padding: 5px;
@@ -463,13 +460,13 @@ input[type=text], input[type=email], select, textarea {
 
 .dark-mode #projectscontainer {
   background-color: #313034;
-  box-shadow: none;
+  box-shadow: 0px 0px 10px rgb(110, 109, 109)
 }
 
 .dark-mode #skillsLogos {
   color: white;
   background-color: #313034;
-  box-shadow: none;
+  box-shadow: 0px 0px 10px rgb(110, 109, 109)
 }
 
 #toggleDark{
