@@ -12,17 +12,23 @@
 <body>
     <main>
         <div id="main">
-            
-                <nav class="navigation" id="navigation">
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#projects">projects</a></li>
-                        <li><a href="#contact">contact</a></li>
-                    </ul>
-                </nav>
+          
+          <div class="menu-button-container">
+            <button id="openMenu" onclick="toggleMenu()">☰</button>
+        </div>
 
-                <button id="toggleDark" onclick="myFunction()">🌙 dark mode</button>
+        <div class="menu-container" id="menuContainer">
+            <nav class="navigation" id="navigation">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="toggleDark" onclick="myFunction()">🌙 dark mode</button>
+        </div>
 
                 <div class="heading"> 
 
@@ -66,7 +72,7 @@
                               <h3>CakeLounge</h3>
                               <div class="links">
         
-                                <p onclick="openVideo('videos/CakeLoungeDemo.mp4')"><a id="demo" href="#projects">view demo</a></p>
+                                <p><a id="demo" href="https://www.youtube.com/watch?v=6wUQWu4Ga3U" target="_blank">view demo</a></p>
                               </div>
                             </div>
                             
@@ -209,7 +215,7 @@
                           <div id="projectscontainer" class="#projectscontainer">
         
                             <div class="header">
-                              <h3>CSCIX691 Course Outline</h3>
+                              <h3>Course Outline</h3>
                               <div class="links">
                                 <a id="github" href="https://github.com/CSCIX691DAL/CSCIX691-website/tree/main/airflow/dags" target="_blank">github</a>
                                 <p>|</p>

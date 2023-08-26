@@ -453,6 +453,7 @@ input[type=text], input[type=email], select, textarea {
 .dark-mode #mycontacts :hover{
   background-color:#18181a;
   color: white;
+  transition: 0.3s ease-in;
 }
 
 .dark-mode #projectscontainer {
@@ -476,22 +477,111 @@ input[type=text], input[type=email], select, textarea {
     color: black;
 }
 
+.menu-button-container {
+  display: none; /* Hide the menu button by default */
+}
+
+/* Show the menu button only on screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .menu-button-container {
+      display: block; /* Display the menu button on small screens */
+  }
+
+  .menu-container {
+      position: fixed;
+      top: 0;
+      right: -300px; /* Initially hide the menu */
+      width: 250px;
+      height: 100%;
+      background-color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      overflow-x: hidden;
+      transition: 0.3s;
+      z-index: 9999; /* Set a higher value for the z-index */
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center align content horizontally */
+      padding-top: 60px; /* Adjust the padding for vertical centering */
+  }
+
+  .menu-container.menu-visible {
+      right: 0; /* Show the menu */
+  }
+}
+
+
+
+
+
+
 
 
 /* Add a media query for smaller screens */
 @media (max-width: 768px) {
+
+
+
+  .menu-container {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Initially hide the menu */
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content horizontally */
+}
+
+.menu-button-container{
+  position:fixed;
+}
+
+.menu-container.menu-visible {
+    right: 0; /* Show the menu */
+}
+
+#openMenu{
+  background-color: inherit;
+  color:#8155FF;
+}
+
   .navigation ul {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
   }
+
+#nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+#toggleDark{
+  position: static;
+  align-self: center;
+}
+
 
   #middle{
     height: 100vh;
+    align-items: center;
+    align-content: center;
+    align-self: center;
   }
 
   #aboutMe{
     font-size: 16px;
+  }
+
+  #contact, #aboutMe{
+    height: 100vh;
   }
 
   #prompt{

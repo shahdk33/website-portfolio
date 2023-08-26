@@ -46,3 +46,12 @@ function myFunction() {
   }
 
 }
+
+
+
+// Add this JavaScript to your index.js file
+
+function toggleMenu() {
+  const menuContainer = document.getElementById('menuContainer');
+  menuContainer.classList.toggle('menu-visible');
+}
