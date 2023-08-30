@@ -2,14 +2,14 @@ function openResume() {
   window.open('resume.pdf', '_blank');
 }
 
-function openCertificate1(){
-  window.open('certificate1.pdf', '_blank');
+function openCertificate(x){
+  window.open(x, '_blank');
 }
 
-function openCertificate2(){
+function openCertificate3(){
           var text = document.getElementById("certificate2");
 
-          var newText = "In progress. Expected completion date: August 30, 2023";
+          var newText = "In progress. Expected completion date: Sept 9, 2023";
 
           if (text.innerText.trim() === "") {
               text.innerText = newText;
