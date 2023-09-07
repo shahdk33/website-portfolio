@@ -6,17 +6,6 @@ function openCertificate(x){
   window.open(x, '_blank');
 }
 
-function openCertificate3(){
-          var text = document.getElementById("certificate2");
-
-          var newText = "In progress. Expected completion date: Sept 9, 2023";
-
-          if (text.innerText.trim() === "") {
-              text.innerText = newText;
-          } else {
-              text.innerText = "";
-          }
-}
 
 function openVideo(url){
   window.open(url, '_blank');
