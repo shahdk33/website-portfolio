@@ -589,6 +589,7 @@ input[type=text], input[type=email], select, textarea {
 
   #prompt{
     text-align: center;
+    margin: 10px;
   }
 
 
