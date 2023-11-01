@@ -237,6 +237,7 @@ footer{
   font-size: 20px;
   font-family: 'Reem Kufi', sans-serif;
   position: fixed;
+  z-index: 2;
   top:0;
   left:0;
   right: 0;
@@ -608,6 +609,7 @@ input[type=text], input[type=email], select, textarea {
 
   .heading {
     height: auto;
+    z-index: 1;
   }
 
   #skillsLogos, #projectscontainer {
@@ -672,7 +674,7 @@ input[type=text], input[type=email], select, textarea {
   }
 
   #greeting{
-    flex-direction: column;
+    flex-direction: column;  
   }
 }
 
