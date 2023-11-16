@@ -418,11 +418,19 @@ input[type=text], input[type=email], select, textarea {
   cursor: pointer;
 }
 
-.dark-mode{
-  background-color: #191919;
-  color: rgb(231, 236, 248);
+.dark-mode {
+  background-image: linear-gradient(to bottom right , #212122, rgb(57, 55, 65), rgb(61, 58, 71));
+  color:#dad6d6 ;
 }
 
+.dark-mode #regular{
+  color: #dad6d6;
+}
+
+.dark-mode #title{
+  color: #dad6d6ad;
+
+}
 .dark-mode .navigation a{
   color:white;
 }
