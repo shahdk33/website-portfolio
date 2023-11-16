@@ -29,8 +29,9 @@
 
 
 body{
-  background-color: rgb(243, 240, 249);
+  background-image: linear-gradient(to bottom right , #ebe5fa, rgb(220, 209, 250), #efd7fa, rgb(209, 214, 250) );
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -231,7 +232,7 @@ footer{
   right: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(196, 174, 255)
+  background-color: rgb(48, 48, 49)
 
 
 }
@@ -250,7 +251,7 @@ footer{
 .navigation ul li a {
   text-decoration: none;
   transition: all 0.3s ease; 
-  color:#000000;
+  color:#dad6d6;
 }
 
 .navigation ul li a:hover {
@@ -472,7 +473,7 @@ input[type=text], input[type=email], select, textarea {
     border: none;
     cursor: pointer;
     z-index: 1000;
-    color: black;
+    color: #dad6d6;
 }
 
 .menu-button-container {
