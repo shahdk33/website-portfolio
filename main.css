@@ -232,7 +232,7 @@ footer{
   right: 0;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(48, 48, 49)
+  background-color: rgb(48, 44, 57)
 
 
 }
@@ -255,7 +255,7 @@ footer{
 .navigation ul li a {
   text-decoration: none;
   transition: all 0.3s ease; 
-  color:#dad6d6;
+  color:#c5c4c4;
 }
 
 .navigation ul li a:hover {
@@ -440,7 +440,7 @@ input[type=text], input[type=email], select, textarea {
 }
 
 .dark-mode .navigation{
-  background-color: #19191900
+  background-color: #191919
 }
 
 .dark-mode #about p {
@@ -481,6 +481,7 @@ input[type=text], input[type=email], select, textarea {
 #toggleDark{
     position: fixed;
     right: 20px;
+    padding-top: 16px;
     background: none;
     border: none;
     cursor: pointer;
