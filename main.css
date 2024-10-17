@@ -29,9 +29,21 @@
 
 
 body{
-  background-image: linear-gradient(to bottom right , #fefeff, rgb(230, 222, 249), #efd7fa, rgb(209, 214, 250) );
+  background-image: linear-gradient(to bottom right , #fefeff, rgb(230, 222, 249), #f5e9fb, rgb(224, 227, 251), rgb(206, 240, 245), rgb(208, 239, 231), rgb(208, 240, 218));
+  background-size: 200% 200%;
+  animation: gradientBG 10s ease infinite;
+}
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
+#vanta-bg{
+  width: 100vw;
+  height: 100vh;
+  position:relative;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -100,12 +112,10 @@ footer{
 
 .heading{
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
+  position: absolute; /* This ensures the text will be placed over the background */
+  top: 20%;           /* Centering vertically */
+  left: 10%;  
+
   /* background: linear-gradient(to bottom, #ffffff 0%, #be96f0 100%); */
 }
 
@@ -217,21 +227,21 @@ footer{
 }
 
 .regular {
-  color: black; /* Set the color for "Hi, I'm" to black */
+  color: rgb(33, 32, 35);; /* Set the color for "Shahd Khartabil" to purple */
   font-weight: lighter;
   padding-right: 18px;
 }
 
 .bold-purple {
   font-weight: bold;
-  color: #8155FF; /* Set the color for "Shahd Khartabil" to purple */
+  color: rgb(33, 32, 35); /* Set the color for "Shahd Khartabil" to purple */
 }
 
 #title {
   font-size: 30px;
   font-family: 'Reem Kufi', sans-serif;  
   font-style: italic;
-  color:rgb(71, 70, 73); 
+  color:rgb(33, 32, 35); 
 }
 
 .navigation {
@@ -289,15 +299,14 @@ footer{
   border: none;
   border-radius: 30px;
   font-size: 18px;
-  font-weight: bold;
-  color: white;
-  background-color: #8155FF;
+  color: rgb(229, 210, 235);
+  background-color: #25232a;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 #resumeBtn:hover {
-  background-color: #4e3299;
+  background-color: #0b0b0b;
   transition: all 0.3s ease;
 }
 
@@ -417,8 +426,7 @@ input[type=text], input[type=email], select, textarea {
   border: solid 1px;
   border-color:#8155FF;
   box-shadow: 2px 2px 5px #8155FF;
-
-  padding: 6px 12px;
+  padding: 12px 24px;
   margin: 10px;
 }
 
@@ -427,7 +435,7 @@ input[type=text], input[type=email], select, textarea {
   color: white;
   border: solid 1px;
   border-color:#8155FF;
-  padding: 6px 12px;
+  padding: 12px 24px;
   margin: 10px;
   background-color:#8155FF;
   transition: all 0.3s ease; 
@@ -679,8 +687,11 @@ input[type=text], input[type=email], select, textarea {
   }
 
   #greeting{
-    flex-direction: column;  
+    flex-direction: column; 
+
   }
+
+  
 }
 
 

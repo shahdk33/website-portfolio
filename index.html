@@ -11,6 +11,8 @@
 </head>
 <body>
     <main>
+
+    
         <div id="main">
           
           <div class="menu-button-container">
@@ -35,6 +37,27 @@
 
         </div>
 
+        <div id="vanta-bg"></div>
+
+    <!-- Include Three.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Include Vanta.js Halo effect from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+      <script>
+        VANTA.HALO({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            backgroundColor: 0x452856,
+            baseColor: 0xaccfc8,
+            size: 1.8,
+            amplitudeFactor: 2.2,
+            xOffset: 0.2,
+            yOffset: 0.1
+        });
+    </script>
+
                 <div class="heading"> 
 
                 <div id="middle">
@@ -54,8 +77,8 @@
 
               <h1>👋</h1>
                 <h1>a bit about  me</h1>
-                <p id="aboutMe"> I recently graduated from Dalhousie University with a Bachelors degree in Applied Computer Science. 
-                    Years of hard work rewarded me with a 4.04 GPA and a never ending eagerness to learn, 
+                <p id="aboutMe"> I graduated from Dalhousie University in April 2023 with a Bachelors degree in Applied Computer Science 
+                    with a 4.04 cummulative GPA. I am eager to continue my learning journey through gaining hands-on experience in the fields of software development and web development.
                     <br><br>
                     I am working on several <a href=#projects> side projects </a>
                     to expand my programming skills.
@@ -333,6 +356,7 @@
                       </div>
 
 
+                
                 <h2 id="certificates">certificates</h2>
                 <p>click to view official certificate</p>
                 <div >
@@ -354,8 +378,9 @@
               <h1>☎️</h1>
                   <h1 id="prompt">so, who's ready to code something great?</h1>
                   <div id="mycontacts">
-                    <p><a href="mailto:shahdkhartabil2@gmail.com">shahdkhartabil@gmail.com</a></p>
-                    <p><a href="tel:902-266-2821">+1(902)266-2821</a></p>
+                    <p><a href="mailto:shahdkhartabil2@gmail.com" target="_blank">Send me an email!</a></p>
+                    <p><a href="https://www.linkedin.com/in/shahd-khartabil-33942b229/" target="_blank">Connect with me!</a></p>
+
                   </div>
             </div>
 
