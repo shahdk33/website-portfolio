@@ -5,6 +5,19 @@
   animation: dropDown 1.5s forwards ease-in-out; 
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8155FF;
+  border-radius: 10px;
+}
 
 
 @keyframes bounce {
@@ -25,6 +38,9 @@
       opacity: 1;
       transform: translateY(0);
   }
+}
+body, html {
+  overflow-x: hidden;
 }
 
 
@@ -300,7 +316,7 @@ footer{
   border-radius: 30px;
   font-size: 18px;
   color: rgb(229, 210, 235);
-  background-color: #25232a;
+  background-color: #8155FF;
   cursor: pointer;
   transition: all 0.3s ease;
 }
