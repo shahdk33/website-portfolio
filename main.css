@@ -45,7 +45,7 @@ body, html {
 
 
 body{
-  background-image: linear-gradient(to bottom right , #fefeff, rgb(230, 222, 249), #f5e9fb, rgb(224, 227, 251), rgb(206, 240, 245), rgb(208, 239, 231), rgb(208, 240, 218));
+  background-image: linear-gradient(to bottom , #fefeff, #eee7f3, #ede2f2, rgb(228, 231, 245), rgb(222, 235, 239), rgb(218, 235, 231), rgb(223, 239, 228));
   background-size: 200% 200%;
   animation: gradientBG 10s ease infinite;
 }
@@ -60,19 +60,22 @@ body{
   height: 100vh;
   position:relative;
 }
+
+
 html{
   scroll-behavior: smooth;
 }
 #demo{
-  background-color: #9d7df6;
+  background-color: #242424;
   color: white;
   border-radius: 10px;
   padding: 5px;
   font-size: small;
+  margin-left:5px;
 }
 
 #demo:hover{
-  background-color: #8469cf;
+  background-color: #000000;
   transition: all 0.3s ease; 
 }
 
@@ -149,7 +152,7 @@ footer{
   color: rgb(24, 23, 23);
   /* border: solid 7px;
   border-color: azure; */
-  height: 70vh;
+  height: 40vh;
 }
 
 #certificates{
@@ -242,6 +245,13 @@ footer{
  
 }
 
+.dark-mode #greeting>span{
+  color: white;
+}
+.dark-mode .bold-purple{
+  color: rgb(246, 242, 242)
+}
+
 .regular {
   color: rgb(33, 32, 35);; /* Set the color for "Shahd Khartabil" to purple */
   font-weight: lighter;
@@ -258,6 +268,10 @@ footer{
   font-family: 'Reem Kufi', sans-serif;  
   font-style: italic;
   color:rgb(33, 32, 35); 
+}
+
+.dark-mode #title{
+  color: rgb(185, 185, 185);
 }
 
 .navigation {
@@ -287,7 +301,7 @@ footer{
 }
 
 #menuContainer {
-  background-color: rgb(232, 232, 238);
+  background-color: rgb(255, 255, 255);
 }
 
 .navigation ul li a {
@@ -315,15 +329,23 @@ footer{
   border: none;
   border-radius: 30px;
   font-size: 18px;
-  color: rgb(229, 210, 235);
-  background-color: #232323;
+  color: rgb(42, 34, 44);
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.dark-mode #resumeBtn {
+  color: rgb(227, 201, 234);
+  background-color: #232323;
+}
+.dark-mode #resumeBtn:hover {
+  background-color: #191818;
+  transition: all 0.4s ease;
+}
 
 #resumeBtn:hover {
-  background-color: #0b0b0b;
-  transition: all 0.3s ease;
+  background-color: #f4ecfa;
+  transition: all 0.4s ease;
 }
 
 #projects1, #projects2{
@@ -400,7 +422,7 @@ input[type=text], input[type=email], select, textarea {
 
 #techStack > p {
   color: white;
-  background-color: #8155FF;
+  background-color:#b705d6;
   border-radius: 30px;
   padding: 6px;
   font-size: small;
@@ -425,6 +447,7 @@ input[type=text], input[type=email], select, textarea {
 
 #subtitle{
   color: #3533338d;
+  margin-bottom: 5px;
 }
 
 #mycontacts{
@@ -472,6 +495,7 @@ input[type=text], input[type=email], select, textarea {
 .dark-mode .navigation{
   background-color: #191919
 }
+
 
 .dark-mode #about p {
   color: #ffffff; /* Set your dark mode text color for paragraphs */
